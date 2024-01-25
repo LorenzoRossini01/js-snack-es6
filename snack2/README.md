@@ -30,13 +30,13 @@ Questo è l'elenco degli studenti:
   - metto i risultati in un altro array (2) con lo stesso numero di elementi
   - stampo il log dell'array
 
-- per ogni oggetto del nuovo array(2)
+- per ogni oggetto del primo array(1)
 
   - verifico che abbiano grades > 70
-  - invio solo gi elementi che soddisfano quella condizione in un altro array(3)
+  - invio solo gi elementi che soddisfano quella condizione in un altro array(2.1)
   - stampo il log dell'array
 
-- per ogni oggetto del nuovo array(3)
+- per ogni oggetto del nuovo array(2.1)
   - verifico che abbiano un id > 120
-  - invio solo gi elementi che soddisfano quella condizione in un altro array(3)
+  - invio solo gi elementi che soddisfano quella condizione in un altro array(2.2)
   - stampo il log dell'array

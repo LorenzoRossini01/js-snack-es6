@@ -10,15 +10,13 @@ const students = [
 
 console.table(students);
 
-const studentsUppercase = students.map((name, index) => ({
-  id: students[index].id,
-  name: students[index].name.toUpperCase(),
-  grades: students[index].grades,
-}));
+const studentsUppercase = students.map((student, index) =>
+  student.name.toUpperCase()
+);
 
 console.table(studentsUppercase);
 
-const students70 = studentsUppercase.filter((student) => student.grades >= 70);
+const students70 = students.filter((student) => student.grades >= 70);
 console.table(students70);
 
 const students70120 = students70.filter((student) => student.id >= 120);
