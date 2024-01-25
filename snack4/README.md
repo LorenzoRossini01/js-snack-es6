@@ -3,8 +3,9 @@
 ### Traccia
 
 Usa l'array allegato alla traccia per completare i seguenti punti:
-Valorizzare le proprietà dei punti fatti e dei falli subiti con numeri randomici
-Creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti, recuperandoli con il destructuring, e stampiamo tutto in console.
+
+- Valorizzare le proprietà dei punti fatti e dei falli subiti con numeri randomici
+- Creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti, recuperandoli con il destructuring, e stampiamo tutto in console.
 
 ## BONUS
 
@@ -24,3 +25,13 @@ const teams = [
 ```
 
 ### Svolgimento
+
+- creazione array (teams) di oggetti (team)
+- creo una arrow function per la creazione di un numero casuale da 1 a 100
+- creo una copia dell'array utilizzando il .map
+  - uso il destructuring per assegnare delle costanti ai valori delle chiavi
+  - utilizzo la funzione randomizer per assegnare score e foul
+  - stampo in console i risultati
+- per ogni elemento del nuovo array
+  - uso il destructuring per assegnare delle costanti ai valori delle chiavi
+  - con il template literal stampo il risultato su dom sottoforma di tabella
